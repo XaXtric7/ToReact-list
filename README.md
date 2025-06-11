@@ -51,8 +51,11 @@ toreact/
 
 ## ✨ Preview
 
-![Preview Image](./screenshot.png)  
-_Add a screenshot of your app here if available._
+![Image](https://github.com/user-attachments/assets/27a6e840-73c7-4364-9e0b-441d433174fe)
+
+![Image](https://github.com/user-attachments/assets/e848a815-10a7-4b41-9420-bda18fa7b796)
+
+![Image](https://github.com/user-attachments/assets/4fb5f439-0d33-410e-a921-c10596cae0d0)
 
 ---
 
