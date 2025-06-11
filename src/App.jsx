@@ -113,17 +113,23 @@ function App() {
             Show Finished
           </label>
         </div>
-        <h2 className="text-lg font-bold text-indigo-700 mt-6 mb-3">Your Todos</h2>
+        <h2 className="text-lg font-bold text-indigo-700 mt-6 mb-3">
+          Your Todos
+        </h2>
         <div className="todos">
           {todos.length === 0 && (
-            <div className="m-5 text-gray-500 text-center italic">No Todos to display</div>
+            <div className="m-5 text-gray-500 text-center italic">
+              No Todos to display
+            </div>
           )}
           {todos.map((item) => {
             return (
               (showFinished || !item.isCompleted) && (
                 <div
                   key={item.id}
-                  className={`todo flex w-full md:w-full my-3 justify-between p-3 rounded-lg ${item.isCompleted ? 'bg-green-50' : 'bg-indigo-50'} hover:shadow-md transition-all duration-300`}
+                  className={`todo flex w-full md:w-full my-3 justify-between p-3 rounded-lg ${
+                    item.isCompleted ? "bg-green-50" : "bg-indigo-50"
+                  } hover:shadow-md transition-all duration-300`}
                 >
                   <div className="flex gap-5 items-center">
                     <input
@@ -133,7 +139,13 @@ function App() {
                       checked={item.isCompleted}
                       className="h-5 w-5 accent-indigo-600"
                     />
-                    <div className={`${item.isCompleted ? "line-through text-gray-500" : "text-gray-800"} transition-all duration-300`}>
+                    <div
+                      className={`${
+                        item.isCompleted
+                          ? "line-through text-gray-500"
+                          : "text-gray-800"
+                      } transition-all duration-300`}
+                    >
                       {item.todo}
                     </div>
                   </div>
@@ -162,7 +174,7 @@ function App() {
         </div>
       </div>
       <footer className="text-center py-4 text-indigo-600">
-        <p>© 2023 ToReact - Your Task Management Solution</p>
+        <p>© 2025 ToReact - Your Task Management Solution</p>
       </footer>
     </div>
   );
